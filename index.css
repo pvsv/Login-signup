@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+#name {
+    text-align: center;
+    color: #333; /* Set your desired text color */
+}
+
+#he {
+    text-align: center;
+}
+
+#he img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+}
+
+#log-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#log {
+    background-color: #0070cc; /* Set your desired button background color */
+    color: #fff; /* Set your desired button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#log:hover {
+    background-color: #00549b; /* Set your desired button hover background color */
+}
